@@ -3,18 +3,19 @@ body {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-}   
+    }   
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #111827;
-    padding: 8px;
+    margin-bottom: 8px;
 }
 
 .logo {
     display: flex;
-    max-width: 80px;
+    max-width: 60px;
     height:  auto;    
 }
 
@@ -27,34 +28,39 @@ body {
 .hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 8px;
+    height: 400px;
+    padding: 160px;
+
 }
 
 .hero-image {
     display: flex;
-    width: 250px;
+    width: 500px;
     height: auto;
-    padding: 8px;
+    margin: 8px;
 }
 
 .catch {
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 8px;
 }
 
 .headline {
     font-size: 48px;
-    font-weight: 900;
-    padding: 8px;
+    font-weight: 900;    
 }
+
 
 .benefits {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 160px;
 }
 
 .four-step {
@@ -71,39 +77,45 @@ body {
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
     color: #111827;
-    padding: 8px;
+    padding: 160px;
 }
 
 .comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: left;
     font-size: 32px;
     color: #111827;
     font-weight: 300;
-    padding: 8px;
+    padding: px;
 }
-
+    
 .commenter {
     text-align: right;
     padding: 8px;
-}
+    font-weight: 600;
+    font-size: 24px;
+    }
 
 .final {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    padding: 16px;
+    padding: 160px;
     
 }
 .final-cta{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: #3882f6;
-    padding: 16px;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .footer {
@@ -113,7 +125,10 @@ body {
     height: 40px;
 }
 
-.cta {
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #e2e8f0;
     background-color: #ff7e36;
 }
@@ -121,4 +136,8 @@ body {
 .hero,.footer {
     background-color: #141a26;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration: inherit;
+}
